@@ -34,5 +34,13 @@ class Merchant
         return $this->id;
     }
 
-    
+    /**
+     * Gets the merchant identification key
+     *
+     * @return string the merchant identification key on Cielo
+     */
+    public function getKey()
+    {
+        return $this->key;
+    }
 }
