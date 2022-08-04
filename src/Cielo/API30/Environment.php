@@ -22,5 +22,11 @@ interface Environment
      * @return string the Api Query URL
      */
     public function getApiQueryURL();
+    /**
+     * Gets the environment's Api Query URL
+     *
+     * @return string the Api Query URL
+     */
+    public function getApiQueryURL2();
 }
 Footer
